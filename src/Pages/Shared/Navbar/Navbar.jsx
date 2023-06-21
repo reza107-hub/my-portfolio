@@ -10,8 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex font-serif items-center justify-between flex-wrap bg-white p-6">
-      <div data-tip="reza" className="flex items-center flex-shrink-0 text-white mr-6">
+    <nav className="flex font-serif items-center justify-between flex-wrap bg-[#ECF0F3] p-6">
+      <div
+        data-tip="Reza"
+        className="flex items-center flex-shrink-0 mr-6 lg:tooltip lg:tooltip-right"
+      >
         <img
           className="w-12"
           src="https://i.ibb.co/ngg37SM/In-Shot-20211104-190909311.png"
@@ -45,8 +48,8 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "activeStyle block text-xl mt-4 lg:inline-block lg:mt-0 mr-4"
-                : "text-black block mt-4 lg:inline-block text-lg lg:mt-0 mr-4"
+                ? "activeStyle block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
+                : "text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
             }
           >
             Home
@@ -55,8 +58,8 @@ const Navbar = () => {
             to="/about"
             className={({ isActive }) =>
               isActive
-                ? "activeStyle block text-xl mt-4 lg:inline-block lg:mt-0 mr-4"
-                : "text-black block mt-4 lg:inline-block text-lg lg:mt-0 mr-4"
+                ? "activeStyle block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
+                : "text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
             }
           >
             About
@@ -65,15 +68,15 @@ const Navbar = () => {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "activeStyle block text-xl mt-4 lg:inline-block lg:mt-0 mr-4"
-                : "text-black block mt-4 lg:inline-block text-lg lg:mt-0 mr-4"
+                ? "activeStyle block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
+                : "text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
             }
           >
             Contact
           </NavLink>
         </div>
         <div>
-          <button className="navbar-btn">
+          <button className="btn-main">
             <span className="text uppercase text-sm">Hire me</span>
           </button>
         </div>

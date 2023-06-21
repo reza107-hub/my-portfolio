@@ -1,15 +1,17 @@
 import { Helmet } from "react-helmet-async";
-import Navbar from "../../../Shared/Navbar/Navbar";
+import { Outlet } from "react-router-dom";
+import Navbar from "../Pages/Shared/Navbar/Navbar.jsx";
 
-const Home = () => {
+const Main = () => {
   return (
     <div>
       <Helmet>
         <title>Rez | Home</title>
       </Helmet>
       <Navbar />
+      <Outlet />
     </div>
   );
 };
 
-export default Home;
+export default Main;

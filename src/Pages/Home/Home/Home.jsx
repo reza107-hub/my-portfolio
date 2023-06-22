@@ -1,9 +1,11 @@
 import Iam from "../Iam/Iam";
+import Skills from "../Skills/Skills";
 
 const Home = () => {
   return (
-    <div>
+    <div className="space-y-32">
       <Iam />
+      <Skills />
     </div>
   );
 };

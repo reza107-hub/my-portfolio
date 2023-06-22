@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import myImg from "../../../assets/ggl.jpg";
 const Iam = () => {
   return (
@@ -96,11 +97,17 @@ const Iam = () => {
           <div className="pt-[10%]">
             <p className="mb-4">Download my Resume</p>
             <div className="flex mt-4 gap-10">
-              <button className="btn-main">
-                <span className="text uppercase text-sm font-bold">
-                  Download Resume
-                </span>
-              </button>
+              <Link
+                to={
+                  "https://drive.google.com/file/d/1-ezOy21Yq8SYR-rcgb5IU9Pk-5yQAqxb/view"
+                }
+              >
+                <button className="btn-main">
+                  <span className="text uppercase text-sm font-bold">
+                    Download Resume
+                  </span>
+                </button>
+              </Link>
               <button className="btn-main">
                 <span className="text uppercase text-sm font-bold">
                   Contact me

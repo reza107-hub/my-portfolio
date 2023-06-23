@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex font-serif items-center justify-between flex-wrap bg-[#ECF0F3] p-6">
+    <nav className="flex font-serif items-center justify-between flex-wrap bg-[#ECF0F3] p-2 md:p-6">
       <div
         data-tip="Reza"
         className="flex items-center flex-shrink-0 mr-6 lg:tooltip lg:tooltip-right"
@@ -24,7 +24,7 @@ const Navbar = () => {
 
       <div className="block lg:hidden">
         <button
-          className="flex items-center px-3 py-2 border rounded text-teal-200 hover:border-teal-400"
+          className="flex items-center px-3 py-2 border rounded hover:text-[#F50057]"
           onClick={toggleMenu}
         >
           <svg

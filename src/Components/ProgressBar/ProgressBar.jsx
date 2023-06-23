@@ -51,7 +51,7 @@ const ProgressBar = ({ progress, title }) => {
 
   return (
     <div className="relative">
-      <div className="w-full h-4 bg-gray-300 mb-7 rounded-full overflow-hidden">
+      <div className="w-full h-3 bg-gray-300 mb-7 rounded-full overflow-hidden">
         <div ref={barRef} className="h-full"></div>
       </div>
       <p

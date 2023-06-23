@@ -19,11 +19,11 @@ const Skills = () => {
     { progress: 95, title: "Tailwind" },
     { progress: 95, title: "Bootstrap" },
     { progress: 80, title: "Firebase" },
-    { progress: 80, title: "REST APIs" },
-    { progress: 80, title: "ExpressJS" },
+    { progress: 80, title: "REST API's" },
+    { progress: 80, title: "Express JS" },
     { progress: 60, title: "MongoDB" },
-    { progress: 60, title: "NextJS" },
-    { progress: 60, title: "Node" },
+    { progress: 60, title: "Next JS" },
+    { progress: 60, title: "Node Js" },
   ];
 
   return (

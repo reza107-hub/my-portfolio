@@ -1,3 +1,4 @@
+import Education from "../Education/Education.JSX";
 import Iam from "../Iam/Iam";
 import Skills from "../Skills/Skills";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div className="space-y-32">
       <Iam />
       <Skills />
+      <Education />
     </div>
   );
 };

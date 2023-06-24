@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import myImg from "../../../assets/ggl.jpg";
 const Iam = () => {
   return (
-    <section className="flex md:flex-row flex-col-reverse gap-10 mt-4">
+    <section id="iam" className="flex md:flex-row flex-col-reverse gap-10 mt-4">
       <div className="flex flex-col">
         <div className="flex flex-col bg-[#f6f8f9] p-4 pb-10 rounded-md shadow-lg transform-gpu hover:translate-y-[-5px] transition-transform duration-700">
           <div className="rounded-full w-14 h-14 bg-[#F50057] bg-opacity-50 shadow-xl text-white m-5 border flex justify-center items-center">

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link"; // Import HashLink
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -11,16 +11,9 @@ const Navbar = () => {
 
   return (
     <nav className="flex font-serif items-center justify-between flex-wrap bg-[#ECF0F3] p-2 md:p-6">
-      <div
-        data-tip="Reza"
-        className="flex items-center flex-shrink-0 mr-6 lg:tooltip lg:tooltip-right"
-      >
-        <img
-          className="w-12"
-          src="https://i.ibb.co/ngg37SM/In-Shot-20211104-190909311.png"
-          alt="reza"
-        />
-      </div>
+      <span className="font-semibold text-2xl tracking-tight activeStyle">
+        My Portfolio
+      </span>
 
       <div className="block lg:hidden">
         <button
@@ -44,36 +37,34 @@ const Navbar = () => {
         } lg:flex lg:items-center lg:w-auto`}
       >
         <div className="text-sm lg:flex-grow mr-5">
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive
-                ? "activeStyle block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
-                : "text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
-            }
+          <Link
+            smooth
+            to="#iam" // Add the hash link
+            className="text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
           >
             Home
-          </NavLink>
-          <NavLink
-            to="/about"
-            className={({ isActive }) =>
-              isActive
-                ? "activeStyle block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
-                : "text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
-            }
+          </Link>
+          <Link
+            smooth
+            to="#skill" // Add the hash link
+            className="text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
           >
-            About
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className={({ isActive }) =>
-              isActive
-                ? "activeStyle block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
-                : "text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
-            }
+            Skill
+          </Link>
+          <Link
+            smooth
+            to="#education" // Add the hash link
+            className="text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
+          >
+            Education
+          </Link>
+          <Link
+            smooth
+            to="#contact" // Add the hash link
+            className="text-black block mt-4 lg:inline-block uppercase lg:mt-0 mr-4"
           >
             Contact
-          </NavLink>
+          </Link>
         </div>
         <div>
           <button className="btn-main">

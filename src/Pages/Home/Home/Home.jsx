@@ -1,3 +1,4 @@
+import Contact from "../Contact/Contact";
 import Education from "../Education/Education.JSX";
 import Iam from "../Iam/Iam";
 import Skills from "../Skills/Skills";
@@ -8,6 +9,7 @@ const Home = () => {
       <Iam />
       <Skills />
       <Education />
+      <Contact />
     </div>
   );
 };

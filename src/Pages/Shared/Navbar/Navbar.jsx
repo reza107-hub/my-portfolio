@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex font-serif items-center justify-between flex-wrap bg-[#ECF0F3] p-2 md:p-6">
+    <nav className="sticky top-0 z-0 flex font-serif items-center justify-between flex-wrap bg-[#ECF0F3] p-2 md:p-6">
       <span className="font-semibold text-2xl tracking-tight activeStyle">
         My Portfolio
       </span>

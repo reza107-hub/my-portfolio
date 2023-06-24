@@ -1,7 +1,15 @@
+import { useEffect } from "react";
 import Card from "../../../Components/Card/Card";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Education = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   const educationData = [
     {
       imgLink:
@@ -32,7 +40,7 @@ const Education = () => {
   ];
 
   return (
-    <div id="education">
+    <div data-aos="fade-up" data-aos-delay="300" id="education">
       <SectionTitle heading={"Education"} subheading={"Academic Background"} />
       <div>
         {educationData.map((education, index) => (

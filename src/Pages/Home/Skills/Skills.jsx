@@ -27,13 +27,19 @@ const Skills = () => {
   ];
 
   return (
-    <div id="skill" data-aos="fade-up" data-aos-delay="300" className="mb-10">
-      <SectionTitle
-        subheading={"Areas of Expertise"}
-        heading={"Development Skill"}
-      />
+    <div id="skill" className="mb-10">
+      <div data-aos="fade-up" data-aos-delay="300">
+        <SectionTitle
+          subheading={"Areas of Expertise"}
+          heading={"Development Skill"}
+        />
+      </div>
 
-      <div className="bg-[#f6f8f9] p-4 rounded-md shadow-lg ">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        className="bg-[#f6f8f9] p-4 rounded-md shadow-lg "
+      >
         {skillsData.map((skill, index) => (
           <div key={index} className={`mt-${index === 0 ? 5 : 10} `}>
             <ProgressBar progress={skill.progress} title={skill.title} />

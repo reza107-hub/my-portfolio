@@ -96,7 +96,7 @@ const Iam = () => {
         <div className=" bg-[#f6f8f9] p-4 shadow-lg rounded-md mt-16 flex-grow">
           <div className="pt-[10%]">
             <p className="mb-4">Download my Resume</p>
-            <div className="flex mt-4 gap-10">
+            <div className="flex flex-col md:flex-row justify-center items-center mt-4 gap-10">
               <Link
                 to={
                   "https://drive.google.com/file/d/1-ezOy21Yq8SYR-rcgb5IU9Pk-5yQAqxb/view"

@@ -5,7 +5,7 @@ import MobileNavbar from "../Pages/Shared/Navbar/MobileNavbar/MobileNavbar.jsx";
 
 const Main = () => {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <Navbar />
       <Outlet />
       <Footer />

@@ -23,7 +23,7 @@ const Education = () => {
     {
       imgLink: "https://i.ibb.co/W5ymkGq/1687528703361.jpg",
       duration: "2017 - 2019",
-      courseName: "HSC",
+      courseName: "Higher Secondary School Certificate",
       location: "Golapgonj, Sylhet, Bangladesh",
       admissionLink: "https://www.gmca.edu.bd/",
       institute: "Govt. Muhammad Chowdhury Academy",
@@ -32,7 +32,7 @@ const Education = () => {
       imgLink:
         "https://i.ibb.co/gZ4Yzbt/316256410-5588311717954082-661735122354344018-n.jpg",
       duration: "2015 - 2017",
-      courseName: "SSC",
+      courseName: "Secondary School Certificate",
       location: "Charkhai, Beanibazar, Sylhet, Bangladesh",
       admissionLink: "https://www.charkhaihsbeani.edu.bd/",
       institute: "Charkhai High School",

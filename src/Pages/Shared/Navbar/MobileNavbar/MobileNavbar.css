@@ -1,0 +1,5 @@
+.activeStyleForMobNav {
+  background: linear-gradient(to right, #e1647d, #8566bb);
+  color: white;
+  /* Add any other styles you want for the active section */
+}

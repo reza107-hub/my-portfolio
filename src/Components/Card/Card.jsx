@@ -13,11 +13,11 @@ const Card = ({ imgLink, duration, courseName, location, admissionLink, institut
     <div
       data-aos="fade-up"
       data-aos-delay="300"
-      className="flex flex-col md:flex-row justify-center items-center w-full bg-[#f6f8f9]"
+      className="flex w-[90%] flex-col mx-auto md:flex-row justify-center items-center md:w-full bg-[#f6f8f9]"
     >
       <div className="flex-1 p-4">
-        <div className="flex flex-col md:flex-row gap-4">
-          <div className="p-2 bg-[#f6f8f9] shadow-lg rounded-lg">
+        <div className="flex flex-col md:flex-row gap-4 items-center">
+          <div className="p-2 bg-[#f6f8f9] shadow-lg rounded-lg md:w-72">
             <div className="overflow-hidden">
               <img
                 className="w-72 h-52 object-cover max-w-full rounded-lg transform transition-transform duration-700 hover:scale-110"

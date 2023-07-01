@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
 import myImg from "../../../assets/ggl.jpg";
+import { HashLink } from "react-router-hash-link";
+import resumePdf from "../../../assets/resume-22-6-23.pdf";
 const Iam = () => {
   return (
     <section id="iam" className="flex md:flex-row flex-col-reverse gap-10 mt-4">
@@ -95,24 +96,24 @@ const Iam = () => {
         </div>
         <div className=" bg-[#f6f8f9] p-4 shadow-lg rounded-md mt-16 flex-grow">
           <div className="pt-[10%]">
-            <p className="mb-4">Download my Resume</p>
+            <p className="mb-4 font-sans text-lg font-medium">
+              Download my Resume
+            </p>
             <div className="flex flex-col md:flex-row justify-center items-center mt-4 gap-10">
-              <Link
-                to={
-                  "https://drive.google.com/file/d/1-ezOy21Yq8SYR-rcgb5IU9Pk-5yQAqxb/view"
-                }
-              >
+              <a href={resumePdf} download>
                 <button className="btn-main">
                   <span className="text uppercase text-sm font-bold">
                     Download Resume
                   </span>
                 </button>
-              </Link>
-              <button className="btn-main">
-                <span className="text uppercase text-sm font-bold">
-                  Contact me
-                </span>
-              </button>
+              </a>
+              <HashLink to={"#contact"}>
+                <button className="btn-second">
+                  <span className="text uppercase text-sm font-bold">
+                    Contact me
+                  </span>
+                </button>
+              </HashLink>
             </div>
           </div>
         </div>

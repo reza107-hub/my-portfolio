@@ -67,3 +67,74 @@ body {
     padding: 10px 8px;
   }
 }
+
+/* btn-second */
+.btn-second {
+  align-items: center;
+  background-image: linear-gradient(to right, #ecf0f3, #f9fafb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-second:active,
+.btn-second:hover {
+  outline: 0;
+  transform: translateY(-5px);
+}
+
+.btn-second span {
+  background-image: linear-gradient(to right, #8566bb, #e1647d);
+  color: white;
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.btn-second:hover span {
+  background: none;
+  color: #e1647d;
+}
+
+.btn-second:active {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 767px) {
+  .btn-second {
+    margin-top: 13px;
+  }
+  .btn-second span {
+    padding: 10px 8px;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 30px;
+}

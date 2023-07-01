@@ -25,7 +25,7 @@ const ProgressBar = ({ progress, title }) => {
           )})`;
           textRef.current.style.width = `${currentWidth}%`;
         }
-      }, 10);
+      }, 35);
     };
 
     const handleScroll = () => {

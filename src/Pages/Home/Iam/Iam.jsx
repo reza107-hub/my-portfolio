@@ -80,6 +80,24 @@ const Iam = () => {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                  />
+                </svg>
+
+                <span className="ml-2">+8801576450416</span>
+              </div>
+              <div className="flex items-center mr-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6 text-[#F50057]"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                   <path
@@ -96,7 +114,7 @@ const Iam = () => {
         </div>
         <div className=" bg-[#f6f8f9] p-4 shadow-lg rounded-md mt-16 flex-grow">
           <div className="pt-[10%]">
-            <p className="mb-4 font-sans text-lg font-medium">
+            <p className="mb-4 font-sans text-lg text-center lg:text-left font-medium">
               Download my Resume
             </p>
             <div className="flex flex-col md:flex-row justify-center items-center mt-4 gap-10">

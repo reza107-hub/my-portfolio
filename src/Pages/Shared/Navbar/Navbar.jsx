@@ -42,8 +42,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 flex font-serif items-center justify-between flex-wrap bg-[#ECF0F3] p-2 bg-opacity-40">
-      <span className="font-semibold text-2xl tracking-tight activeStyle  mx-auto md:mx-0">
+    <nav className="sticky top-0 z-50 flex font-serif items-center justify-between flex-wrap font-bold bg-[#ECF0F3] p-2 bg-opacity-40">
+      <span className="font-semibold text-2xl tracking-tight text-[#F50057]  mx-auto md:mx-0">
         <Link smooth to={"/"}>
           Reza.<span className="font-thin text-xs">com</span>
         </Link>

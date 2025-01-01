@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .activeStyle {
-  background: linear-gradient(to right, #e1647d, #8566bb);
+  background: #F50057;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -12,7 +12,7 @@ const Skills = () => {
   }, []);
 
   const skillsData = [
-    { progress: 100, title: "HTML" },
+    { progress: 100,title: "HTML" },
     { progress: 95, title: "CSS" },
     { progress: 80, title: "JAVASCRIPT" },
     { progress: 90, title: "React" },

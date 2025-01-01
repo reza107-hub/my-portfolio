@@ -14,7 +14,7 @@ const Education = () => {
     {
       imgLink:
         "https://i.ibb.co/zb4xgMj/323113454-1325448301586663-5004010928649462078-n.jpg",
-      duration: "2020 - Present",
+      duration: "2020 - 2024",
       courseName: "BSc in Computer Science and Engineering",
       location: "Bateshwar, Sylhet-3104, Bangladesh",
       admissionLink: "https://metrouni.edu.bd/",
